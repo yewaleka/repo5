@@ -1,0 +1,32 @@
+{
+    "name": "yewaleka/repo5",
+    "description": "This is Brand 1 Repo",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yewaleka\\Repo5\\" : ""
+        }
+    },	
+   "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],	
+    "require": {
+	  "php": "~7.2.0||~7.3.0",
+	  "yewaleka/graextension1": "^1.0.0", 	
+	  "yewaleka/graextension3": "^1.0.0",
+	  "yewaleka/graextension4": "^1.0.0",
+   	  "magento/product-enterprise-edition": "2.3.3" 	
+   },
+   "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+   }
+}
