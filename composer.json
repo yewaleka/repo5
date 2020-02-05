@@ -1,7 +1,7 @@
 {
     "name": "yewaleka/repo5",
     "description": "This is Brand 1 Repo",
-    "type": "magento2-module",
+    "type": "project",
     "version": "1.0.0",
     "minimum-stability": "stable",
     "autoload": {
